@@ -1,0 +1,6 @@
+{
+  // カーソルのスタイルを制御
+  "editor.cursorStyle": "line",
+  // Tabキーでスペースを挿入
+  "editor.insertSpaces": true
+}
