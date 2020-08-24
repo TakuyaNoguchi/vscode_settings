@@ -37,7 +37,7 @@
   },
   // 新規フォルダの作成
   {
-    "key": "Ctrl+c Ctrl+f",
+    "key": "Ctrl+x Ctrl+Alt+f",
     "command": "explorer.newFolder"
   },
   // ターミナルのキーバインド
