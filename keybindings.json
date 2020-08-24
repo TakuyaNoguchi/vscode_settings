@@ -51,6 +51,12 @@
     "command": "acceptSelectedSuggestion",
     "when": "suggestWidgetVisible && textInputFocus"
   },
+  // 左の単語を削除
+  {
+    "key": "Ctrl+w",
+    "command": "deleteWordPartLeft",
+    "when": "editorTextFocus && !editorReadonly"
+  },
   // ターミナルのキーバインド
   {
     "key": "Ctrl+p",
