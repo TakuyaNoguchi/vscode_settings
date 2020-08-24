@@ -37,6 +37,16 @@
     "key": "Ctrl+Shift+Tab",
     "command": "workbench.action.previousEditor"
   },
+  // 新規ファイルの作成
+  {
+    "key": "Ctrl+x Ctrl+n",
+    "command": "explorer.newFile"
+  },
+  // 新規フォルのの作成
+  {
+    "key": "Ctrl+x Ctrl+Alt+n",
+     "command": "explorer.newFolder"
+  },
   // ターミナののキーバインド
   {
     "key": "Ctrl+p",
