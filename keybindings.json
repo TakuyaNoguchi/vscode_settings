@@ -1,0 +1,76 @@
+[
+  // エディタとターミナルを往復するためのショートカット
+  {
+    "key": "Ctrl+t",
+    "command": "workbench.action.focusActiveEditorGroup",
+    "when": "terminalFocus"
+  },
+  {
+    "key": "Ctrl+t",
+    "command": "workbench.action.terminal.focus",
+    "when": "editorFocus"
+  },
+  // インデントを追加するショートカット
+  {
+    "key": "Ctrl+i",
+    "command": "editor.action.indentLines",
+    "when": "editorTextFocus && !editorReadonly"
+  },
+  // インデントを削除するショートカット
+  {
+    "key": "Ctrl+Shift+i",
+    "command": "editor.action.outdentLines",
+    "when": "editorTextFocus && !editorReadonly"
+  },
+  // ターミナののキーバインド
+  {
+    "key": "Ctrl+p",
+    "command": "cursorUp",
+    "when": "terminalFocus"
+  },
+  {
+    "key": "Ctrl+n",
+    "command": "cursorDown",
+    "when": "terminalFocus"
+  },
+  {
+    "key": "Ctrl+f",
+    "command": "cursorRight",
+    "when": "terminalFocus"
+  },
+  {
+    "key": "Ctrl+b",
+    "command": "cursorLeft",
+    "when": "terminalFocus"
+  },
+  {
+    "key": "Ctrl+a",
+    "command": "cursorHome",
+    "when": "terminalFocus"
+  },
+  {
+    "key": "Ctrl+e",
+    "command": "cursorEnd",
+    "when": "terminalFocus"
+  },
+  {
+    "key": "Ctrl+d",
+    "command": "deleteRight",
+    "when": "terminalFocus"
+  },
+  {
+    "key": "Ctrl+h",
+    "command": "deleteLeft",
+    "when": "terminalFocus"
+  },
+  {
+    "key": "Ctrl+k",
+    "command": "emacs-mcx.killLine",
+    "when": "terminalFocus"
+  },
+  {
+    "key": "Ctrl+u",
+    "command": "deleteLeft",
+    "when": "terminalFocus"
+  }
+]
