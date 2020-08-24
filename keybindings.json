@@ -22,6 +22,12 @@
     "command": "editor.action.outdentLines",
     "when": "editorTextFocus && !editorReadonly"
   },
+  // Redo
+  {
+    "key": "Ctrl+Alt+/",
+    "command": "redo",
+    "when": "editorTextFocus && !editorReadonly"
+  },
   // ターミナののキーバインド
   {
     "key": "Ctrl+p",
