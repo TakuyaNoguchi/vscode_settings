@@ -10,18 +10,6 @@
     "command": "workbench.action.terminal.focus",
     "when": "editorFocus"
   },
-  // インデントを追加するショートカット
-  {
-    "key": "Ctrl+i",
-    "command": "editor.action.indentLines",
-    "when": "editorTextFocus && !editorReadonly"
-  },
-  // インデントを削除するショートカット
-  {
-    "key": "Ctrl+Shift+i",
-    "command": "editor.action.outdentLines",
-    "when": "editorTextFocus && !editorReadonly"
-  },
   // Redo
   {
     "key": "Ctrl+Alt+/",
