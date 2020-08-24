@@ -37,17 +37,22 @@
     "key": "Ctrl+Shift+Tab",
     "command": "workbench.action.previousEditor"
   },
+  {
+    "key": "Ctrl+x Ctrl+b",
+    "command": "workbench.action.quickOpen",
+    "when": "!terminalFocus"
+  },
   // 新規ファイルの作成
   {
-    "key": "Ctrl+x Ctrl+n",
+    "key": "Ctrl+x Ctrl+f",
     "command": "explorer.newFile"
   },
-  // 新規フォルのの作成
+  // 新規フォルダの作成
   {
-    "key": "Ctrl+x Ctrl+Alt+n",
-     "command": "explorer.newFolder"
+    "key": "Ctrl+c Ctrl+f",
+    "command": "explorer.newFolder"
   },
-  // ターミナののキーバインド
+  // ターミナルのキーバインド
   {
     "key": "Ctrl+p",
     "command": "cursorUp",
