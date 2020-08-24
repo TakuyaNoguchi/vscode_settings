@@ -40,6 +40,17 @@
     "key": "Ctrl+x Ctrl+Alt+f",
     "command": "explorer.newFolder"
   },
+  // 補完候補の決定
+  {
+    "key": "Ctrl+i",
+    "command": "acceptSelectedSuggestion",
+    "when": "suggestWidgetVisible && textInputFocus"
+  },
+  {
+    "key": "Ctrl+o",
+    "command": "acceptSelectedSuggestion",
+    "when": "suggestWidgetVisible && textInputFocus"
+  },
   // ターミナルのキーバインド
   {
     "key": "Ctrl+p",
