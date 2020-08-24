@@ -1,6 +1,15 @@
 {
-  // カーソルのスタイルを制御
-  "editor.cursorStyle": "line",
+  // カーソルの点滅をOFF
+  "editor.cursorBlinking": "solid",
   // Tabキーでスペースを挿入
-  "editor.insertSpaces": true
+  "editor.insertSpaces": true,
+  // フォントの設定
+  "editor.fontSize": 14,
+  "editor.fontFamily": "Ricty",
+  // 保存時に行の終端に存在する空白文字を削除
+  "files.trimTrailingWhitespace": true,
+  "[markdown]": {
+    "editor.wordWrap": "off",
+    "files.trimTrailingWhitespace": false,
+  }
 }
