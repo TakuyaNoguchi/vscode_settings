@@ -100,7 +100,7 @@
   },
   {
     "key": "Ctrl+k",
-    "command": "emacs-mcx.killLine",
+    "command": "editor.action.deleteLines",
     "when": "terminalFocus"
   },
   {
