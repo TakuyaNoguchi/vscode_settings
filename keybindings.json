@@ -28,6 +28,15 @@
     "command": "redo",
     "when": "editorTextFocus && !editorReadonly"
   },
+  // タブの移動
+  {
+    "key": "Ctrl+Tab",
+    "command": "workbench.action.nextEditor"
+  },
+  {
+    "key": "Ctrl+Shift+Tab",
+    "command": "workbench.action.previousEditor"
+  },
   // ターミナののキーバインド
   {
     "key": "Ctrl+p",
