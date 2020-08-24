@@ -12,5 +12,6 @@
     "editor.wordWrap": "off",
     "files.trimTrailingWhitespace": false,
   },
-  "window.zoomLevel": 0
+  "window.zoomLevel": 0,
+  "explorer.confirmDelete": false
 }
