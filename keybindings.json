@@ -107,5 +107,11 @@
     "key": "Ctrl+u",
     "command": "deleteLeft",
     "when": "terminalFocus"
+  },
+  {
+    "key": "Ctrl+c Ctrl+t",
+    "command": "workbench.action.tasks.runTask",
+    "when": "editorTextFocus",
+    "args": "CheckTestCase"
   }
 ]
