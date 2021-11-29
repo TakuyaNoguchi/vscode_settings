@@ -6,7 +6,7 @@
         {
             "label": "CheckTestCase",
             "type": "shell",
-            "command": "oj t -c \"pypy ${fileDirname}/${fileBasename}\" -d ${fileDirname}/tests/",
+            "command": "oj t -c \"pypy ${fileDirname}/${fileBasename}\" -d ${fileDirname}/test/"
             "presentation": {
                 "reveal": "always",
                 "focus": true,
