@@ -5,13 +5,29 @@
   "editor.insertSpaces": true,
   // フォントの設定
   "editor.fontSize": 14,
-  "editor.fontFamily": "Ricty",
+  "editor.fontFamily": "'Ricty Diminished'",
   // 保存時に行の終端に存在する空白文字を削除
   "files.trimTrailingWhitespace": true,
   "[markdown]": {
     "editor.wordWrap": "off",
     "files.trimTrailingWhitespace": false,
   },
+  "[ruby]": {
+    "editor.tabSize": 2,
+    "editor.insertSpaces": true
+  },
+  "ruby.format": "rubocop",
+  "editor.formatOnSaveTimeout": 5000,
   "window.zoomLevel": 0,
-  "explorer.confirmDelete": false
+  "explorer.confirmDelete": false,
+  "workbench.editorAssociations": {
+    "*.ipynb": "jupyter-notebook"
+  },
+  "notebook.cellToolbarLocation": {
+    "default": "right",
+    "jupyter-notebook": "left"
+  },
+  "git.confirmSync": false,,
+  "code-runner.clearPreviousOutput": true,
+  "code-runner.runInTerminal": true
 }
